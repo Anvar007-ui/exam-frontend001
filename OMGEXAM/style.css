@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  width: 100%;
+  height: 79px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 61, 61);
+}
+.район {
+  width: 208px;
+  height: 30px;
+}
+.location {
+  width: 265px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 200;
+  padding-right: 20px;
+}
+.location_png {
+  width: 34px;
+  height: 34px;
+}
+.border {
+  width: 0px;
+  height: 45px;
+  border: 1px solid white;
+}
+.time {
+  width: 146px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.number {
+  width: 154px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 100;
+  padding-left: 20px;
+  padding-right: 29px;
+}
+.phone {
+  height: 30px;
+}
+.order {
+  width: 393px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 100;
+}
+.btn {
+  width: 240px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 30px;
+  border: 0px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.Master_build {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.items {
+  display: flex;
+  gap: 50px;
+}
+.item {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: 501;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.Master {
+  width: 114px;
+  height: 55px;
+}
+.title_section {
+  width: 100%;
+  height: 532px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(imgs/Rectangle\ 5.png);
+}
+.title_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.item_text {
+  font-size: small;
+  font-weight: 300;
+}
+.text_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
+.title_btn {
+  width: 240px;
+  height: 60px;
+  background: #e05100;
+  border-radius: 30px;
+  border: 0px;
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 600;
+}
+.section1 {
+  width: 100%;
+  height: 821px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+
+}
+.what_to_buy {
+  display: flex;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 900;
+}
+.buy {
+  width: 1050px;
+  height: 264px;
+  display: flex;
+  gap: 30px;
+}
+.buy_item {
+  width: 240px;
+  height: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 44px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: small;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.left_right{
+    width: 100%;
+    height: 748px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #404040;
+     color: #fff;
+}
+.img{
+    width: 748px;
+    height: 748px;
+}
+ h2 {
+    font-size: 23px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+ }
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    font-size: 23px;
+    text-align: left;
+    padding: 100px;
+    font-family: sans-serif;
+}
+h3{
+      font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 28px;  
+}
+    
+
+p{
+    font-size: 10px;
+    line-height: 1.5;
+    color: #d5d5d5;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    font-size: 10px;
+    margin-top: 15px;
+    color: #d5d5d5;
+}
+.get{
+width: 150px;
+height: 40px;
+background: #E05100;
+border-radius: 30px;
+border: 0px;
+font-family: sans-serif;
+font-size: small;
+ color: #ffffff;
+margin-top: 46px;
+}

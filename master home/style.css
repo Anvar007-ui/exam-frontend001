@@ -1,0 +1,585 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat";
+
+}
+
+.logo{
+    width: 130px;
+}
+
+.navbar_intro {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
+    height: 70px;
+    background-color: #404040;
+}
+
+
+
+.navbar_intro p {
+
+    width: 208px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+.intro_nav_btn {
+
+    width: 200px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+
+
+}
+
+
+
+.nav_navbar {
+    width: 100%;
+    height: 67px;
+    background: #fff;
+}
+
+.nav_container {
+    width: 760px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_link {
+    color: #111;
+    text-decoration: none;
+
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.nav_hero {
+    width: 100%;
+    height: 407px;
+
+    background-image: url("img/bgr.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.nav_hero_content {
+    margin-top: -5px;
+}
+
+.nav_hero_title {
+    margin: 0 0 12px;
+
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.nav_hero_text {
+    margin: 0 0 17px;
+
+    color: #d5d5d5;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.nav_hero_button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 146px;
+    height: 38px;
+
+    background: #f15a00;
+    border-radius: 25px;
+
+    color: #fff;
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+
+
+
+.catalog {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.catalog h1 {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 230px;
+    height: 250px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+.card p {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0 15px;
+}
+
+
+
+.About {
+    display: flex;
+    min-height: 500px;
+}
+
+.About-left,
+.About-right {
+    width: 50%;
+}
+
+.About-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.About-right {
+    background: #3f3f3f;
+    color: #fff;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.About-right h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.About-right p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.About-right button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: #f26b00;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.TopProducts {
+    background: #f3f3f3;
+    padding: 80px 20px;
+}
+
+.TopProducts h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.TopProducts-cards {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+.TopProducts-card {
+    width: 620px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.TopProducts-img {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.TopProducts-img img {
+    width: 100%;
+    width: 180px;
+}
+
+.TopProducts-info {
+    width: 45%;
+    background: #3d3d3d;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.TopProducts-info h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.TopProducts-info p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.TopProducts-colors {
+    display: flex;
+    gap: 6px;
+    margin-top: 15px;
+}
+
+.TopProducts-colors span {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+.TopProducts-colors span:nth-child(1) {
+    background: #777;
+}
+
+.TopProducts-colors span:nth-child(2) {
+    background: #b22222;
+}
+
+.TopProducts-colors span:nth-child(3) {
+    background: #c98b2e;
+}
+
+.TopProducts-colors span:nth-child(4) {
+    background: #e7d4a8;
+}
+
+.TopProducts-colors span:nth-child(5) {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.TopProducts-colors span:nth-child(6) {
+    background: #111;
+}
+
+.TopProducts-info button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background: #f26b00;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 15px 0 0 0;
+}
+
+
+
+.Production{
+    background:#3f3f3f;
+    padding:60px 20px;
+}
+
+.Production-title{
+    text-align:center;
+    color:#fff;
+    font-size:42px;
+    margin-bottom:50px;
+}
+
+.Production-wrapper{
+    width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:70px;
+}
+
+.Production-info{
+    width:280px;
+}
+
+.Production-logo{
+    border: 1px solid white;
+    width: 280px;
+    height: 80px;
+    border-radius: 30px;
+    margin-bottom:40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Production-logo img{
+    width:170px;
+}
+
+.Production-item{
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.Production-item img{
+    width:35px;
+}
+
+.Production-item p{
+    color:#fff;
+    font-size:14px;
+    line-height:1.5;
+}
+
+.Production-video{
+    flex:1;
+}
+
+.Production-video img{
+    width:100%;
+    width:100%;
+    display:block;
+}
+
+
+.Works{
+    padding:90px 20px;
+}
+
+.Works-title{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:40px;
+    color:#111;
+}
+
+.Works-text{
+    width:900px;
+    margin:0 auto 70px;
+    text-align:center;
+    font-size:14px;
+    line-height:1.8;
+    color:#555;
+}
+
+.Works-gallery{
+    width:1000px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.Works-card{
+    width:250px;
+    height:180px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+
+.Works-card img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+
+
+.Advantages{
+    background:#474747;
+    padding:70px 20px;
+}
+
+.Advantages-title{
+    text-align:center;
+    color:#fff;
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:60px;
+}
+
+.Advantages-cards{
+    width:1200px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:35px;
+}
+
+.Advantages-card{
+    width:330px;
+    background:#fff;
+    border-radius:25px;
+    padding:35px 25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+
+
+.Advantages-card img{
+    width:80px;
+    height:80px;
+    display:block;
+    margin:0 auto 25px;
+    object-fit:contain;
+}
+
+.Advantages-card h3{
+    font-size:18px;
+    line-height:1.4;
+    margin-bottom:15px;
+    color:#111;
+}
+
+.Advantages-card p{
+    font-size:14px;
+    line-height:1.6;
+    color:#555;
+}
+
+/* Footer */
+
+.Footer{
+    background:#f7f7f7;
+    padding:60px 20px;
+}
+
+.Footer-container{
+    width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+.Footer-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.Footer-column h3{
+    color:#f26a00;
+    margin-bottom:25px;
+    font-size:24px;
+}
+
+.Footer-column a{
+    text-decoration:none;
+    color:#333;
+    margin-bottom:12px;
+    font-size:14px;
+}
+
+.Footer-column p{
+    color:#333;
+    margin-bottom:8px;
+    font-size:14px;
+}
+
+.Footer-time{
+    padding:5px 10px;
+    display:inline-block;
+    margin:15px 0;
+    font-size:13px;
+}
